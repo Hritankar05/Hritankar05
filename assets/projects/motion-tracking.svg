@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">AI-driven motion tracking project card</title>
+  <desc id="desc">An AI-driven motion tracking and storage optimization engine, represented by temporal frames and a computer-vision bounding box.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080A0F"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF2638"/><stop offset="1" stop-color="#45C7FF"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="420" rx="24" fill="url(#bg)" stroke="#929BAA" stroke-opacity="0.20"/>
+  <g fill="#0B1220" stroke="#45C7FF" stroke-opacity="0.28" stroke-width="2">
+    <rect x="616" y="74" width="204" height="152" rx="9"/>
+    <rect x="602" y="90" width="204" height="152" rx="9"/>
+    <rect x="588" y="106" width="204" height="152" rx="9"/>
+  </g>
+  <g stroke="#929BAA" stroke-opacity="0.14" fill="none"><path d="M598 142H782M598 178H782M598 214H782M634 116V248M680 116V248M726 116V248"/></g>
+  <path d="M626 132h30M626 132v30M760 132h-30M760 132v30M626 232h30M626 232v-30M760 232h-30M760 232v-30" fill="none" stroke="#FF2638" stroke-width="3"/>
+  <path d="M660 196l24-42 26 22 20 22" fill="none" stroke="#45C7FF" stroke-width="4"/>
+  <g fill="#45C7FF" filter="url(#glow)"><circle cx="660" cy="196" r="5"/><circle cx="684" cy="154" r="5"/><circle cx="710" cy="176" r="5"/><circle cx="730" cy="198" r="5"/></g>
+  <text x="614" y="288" fill="#45C7FF" font-family="monospace" font-size="13" letter-spacing="2">MOG2 → TEMPORAL RESNET18</text>
+  <rect x="62" y="64" width="6" height="172" fill="#FF2638"/>
+  <text x="92" y="90" fill="#45C7FF" font-family="monospace" font-size="13" letter-spacing="4">PROJECT 04 / PERCEPTION</text>
+  <text x="92" y="154" fill="#F3F5F7" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="3">MOTION TRACKING</text>
+  <text x="92" y="194" fill="#929BAA" font-family="monospace" font-size="15" letter-spacing="2">STORAGE OPTIMIZATION ENGINE</text>
+  <text x="92" y="274" fill="#F3F5F7" font-family="monospace" font-size="20">92%+ ACCURACY / 0.90 F1</text>
+  <text x="92" y="304" fill="#FF2638" font-family="monospace" font-size="20">85% LESS DAILY VIDEO STORAGE</text>
+  <text x="92" y="362" fill="#929BAA" font-family="monospace" font-size="12" letter-spacing="2">NIT AGARTALA · REAL-TIME INFERENCE AT 30+ FPS</text>
+  <path d="M92 382H420" stroke="url(#accent)" stroke-width="3"/>
+</svg>

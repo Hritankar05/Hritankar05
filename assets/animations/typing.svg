@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 58" role="img" aria-labelledby="title desc">
+  <title id="title">Hritankar Das — rotating engineering focus</title>
+  <desc id="desc">An optional animated line cycling through Building Intelligent Systems, Exploring Computer Vision, Engineering AI Applications and Designing Creative Technology. The first phrase remains as a static fallback.</desc>
+  <rect width="680" height="58" rx="10" fill="#080A0F" fill-opacity="0.92" stroke="#0B1220"/>
+  <rect x="18" y="17" width="3" height="24" fill="#FF2638"/>
+  <g fill="#45C7FF" font-family="monospace" font-size="16" text-anchor="middle" dominant-baseline="middle">
+    <text x="350" y="30">Building Intelligent Systems
+      <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.18;0.24;0.48;0.54;0.96;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="350" y="30" opacity="0">Exploring Computer Vision
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.18;0.24;0.43;0.49;0.96;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="350" y="30" opacity="0">Engineering AI Applications
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.18;0.24;0.43;0.49;0.72;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="350" y="30" opacity="0">Designing Creative Technology
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.18;0.24;0.43;0.49;0.68;0.73;0.96;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

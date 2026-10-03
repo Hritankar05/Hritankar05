@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Bandhu project card</title>
+  <desc id="desc">Bandhu, an AI-driven smart tourism platform, represented by a route map, location signal, and itinerary nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080A0F"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF2638"/><stop offset="1" stop-color="#45C7FF"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="420" rx="24" fill="url(#bg)" stroke="#929BAA" stroke-opacity="0.20"/>
+  <g fill="none" stroke="#929BAA" stroke-opacity="0.14">
+    <path d="M566 54H852M566 104H852M566 154H852M566 204H852M566 254H852M566 304H852"/>
+    <path d="M600 40V330M650 40V330M700 40V330M750 40V330M800 40V330M850 40V330"/>
+  </g>
+  <path d="M596 278C626 238 636 188 682 182s46-56 76-38 38 34 70 6" fill="none" stroke="url(#route)" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#45C7FF" filter="url(#glow)"><circle cx="596" cy="278" r="9"/><circle cx="682" cy="182" r="9"/><circle cx="758" cy="144" r="9"/></g>
+  <g fill="none" stroke="#FF2638" stroke-width="2"><path d="M758 122c-12 0-22 10-22 22 0 17 22 42 22 42s22-25 22-42c0-12-10-22-22-22Z"/></g>
+  <circle cx="758" cy="144" r="6" fill="#FF2638"/>
+  <rect x="62" y="64" width="6" height="172" fill="#FF2638"/>
+  <text x="92" y="90" fill="#45C7FF" font-family="monospace" font-size="13" letter-spacing="4">PROJECT 03 / EXPLORATION</text>
+  <text x="92" y="160" fill="#F3F5F7" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="6">BANDHU</text>
+  <text x="92" y="194" fill="#929BAA" font-family="monospace" font-size="15" letter-spacing="2">AI-DRIVEN SMART TOURISM PLATFORM</text>
+  <text x="92" y="274" fill="#F3F5F7" font-family="monospace" font-size="20">ITINERARIES / LOCATION / BOOKINGS</text>
+  <text x="92" y="304" fill="#45C7FF" font-family="monospace" font-size="20">MULTILINGUAL RECOMMENDATIONS</text>
+  <text x="92" y="362" fill="#929BAA" font-family="monospace" font-size="12" letter-spacing="2">SMART INDIA HACKATHON 2025 · FINALIST</text>
+  <path d="M92 382H420" stroke="url(#route)" stroke-width="3"/>
+</svg>

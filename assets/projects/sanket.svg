@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Sanket project card</title>
+  <desc id="desc">Sanket, a two-way Indian Sign Language terminal, represented by a landmark skeleton and interface signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080A0F"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF2638"/><stop offset="1" stop-color="#45C7FF"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="420" rx="24" fill="url(#bg)" stroke="#929BAA" stroke-opacity="0.20"/>
+  <path d="M0 320H900" stroke="#45C7FF" stroke-opacity="0.13"/>
+  <path d="M612 42v282M656 42v282M700 42v282M744 42v282M788 42v282M832 42v282" stroke="#45C7FF" stroke-opacity="0.07"/>
+  <g fill="none" stroke="#45C7FF" stroke-width="3" stroke-opacity="0.75">
+    <path d="M690 118l32 34 18-48 30 42 26-26 28 22"/>
+    <path d="M704 152l-36 54 40 28 34-48 44 62 32-32"/>
+    <path d="M668 206l-34 28 44 42 36-42"/>
+  </g>
+  <g fill="#45C7FF" filter="url(#glow)">
+    <circle cx="690" cy="118" r="6"/><circle cx="722" cy="152" r="6"/><circle cx="740" cy="104" r="6"/><circle cx="770" cy="146" r="6"/><circle cx="796" cy="120" r="6"/><circle cx="824" cy="142" r="6"/>
+    <circle cx="668" cy="206" r="6"/><circle cx="708" cy="234" r="6"/><circle cx="742" cy="186" r="6"/><circle cx="786" cy="248" r="6"/><circle cx="818" cy="216" r="6"/>
+  </g>
+  <g fill="none" stroke="#FF2638" stroke-width="2" opacity="0.8">
+    <path d="M628 86h28M628 86v28M856 86h-28M856 86v28M628 292h28M628 292v-28M856 292h-28M856 292v-28"/>
+  </g>
+  <rect x="62" y="64" width="6" height="172" fill="#FF2638"/>
+  <text x="92" y="90" fill="#45C7FF" font-family="monospace" font-size="13" letter-spacing="4">PROJECT 01 / COMMUNICATION</text>
+  <text x="92" y="160" fill="#F3F5F7" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="6">SANKET</text>
+  <text x="92" y="194" fill="#929BAA" font-family="monospace" font-size="15" letter-spacing="2">TWO-WAY INDIAN SIGN LANGUAGE TERMINAL</text>
+  <text x="92" y="274" fill="#F3F5F7" font-family="monospace" font-size="20">543 LANDMARKS / FRAME</text>
+  <text x="92" y="304" fill="#FF2638" font-family="monospace" font-size="20">≈99% PAYLOAD REDUCTION</text>
+  <text x="92" y="362" fill="#929BAA" font-family="monospace" font-size="12" letter-spacing="2">HACKATHON WINNER · BEST SOCIAL IMPACT AWARD</text>
+  <path d="M92 382H420" stroke="url(#accent)" stroke-width="3"/>
+</svg>

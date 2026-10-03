@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity</title>
+  <desc id="desc">GitHub activity / ACCOUNT NOT CONNECTED / No statistics until a GitHub username is configured.</desc>
+  <rect width="900" height="180" rx="12" fill="#080A0F" stroke="#0B1220" stroke-width="2"/>
+  <rect x="28" y="28" width="4" height="124" rx="2" fill="#FF2638"/>
+  <text x="58" y="68" fill="#F3F5F7" font-family="Arial, sans-serif" font-size="26" font-weight="700">GitHub activity</text>
+  <text x="58" y="104" fill="#FF2638" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">ACCOUNT NOT CONNECTED</text>
+  <text x="58" y="134" fill="#929BAA" font-family="Arial, sans-serif" font-size="15">No statistics until a GitHub username is configured.</text>
+  <circle cx="838" cy="62" r="10" fill="#45C7FF"/>
+  <circle cx="838" cy="90" r="10" fill="#FF2638"/>
+  <circle cx="838" cy="118" r="10" fill="#929BAA"/>
+</svg>

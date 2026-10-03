@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+  <title id="title">Hritankar Das — cinematic AI laboratory banner</title>
+  <desc id="desc">A dark futuristic city-laboratory scene with red and electric-blue tracking lights, an AI network, and the words Hritankar Das.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080A0F"/>
+      <stop offset="0.55" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#080A0F"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="74%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#45C7FF" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#45C7FF" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#45C7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="redGlow" cx="21%" cy="58%" r="54%">
+      <stop offset="0" stop-color="#FF2638" stop-opacity="0.24"/>
+      <stop offset="0.52" stop-color="#FF2638" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#FF2638" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF2638" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#FF2638" stop-opacity="0.9"/>
+      <stop offset="0.50" stop-color="#45C7FF" stop-opacity="0.18"/>
+      <stop offset="0.76" stop-color="#45C7FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#45C7FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#45C7FF" stroke-opacity="0.08" stroke-width="1"/>
+      <path d="M0 24H48M24 0V48" fill="none" stroke="#45C7FF" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="smallGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="560" fill="url(#bg)"/>
+  <rect width="1600" height="560" fill="url(#blueGlow)"/>
+  <rect width="1600" height="560" fill="url(#redGlow)"/>
+  <rect width="1600" height="560" fill="url(#grid)"/>
+
+  <!-- atmospheric haze -->
+  <path d="M0 352C220 296 375 388 594 342S1000 290 1246 346 1478 373 1600 332V560H0Z" fill="#0B1220" opacity="0.62"/>
+  <path d="M0 406C286 355 498 440 720 388S1168 342 1600 402" fill="none" stroke="#929BAA" stroke-opacity="0.12" stroke-width="44"/>
+
+  <!-- distant laboratory / city silhouette -->
+  <g fill="#07090D" stroke="#929BAA" stroke-opacity="0.13" stroke-width="2">
+    <path d="M0 418V220h78v198zM88 418V274h96v-64h34v208zM232 418V164h104v254zM352 418V248h74v-92h52v262zM494 418V206h126v212zM650 418V272h88v-142h34v288zM790 418V234h104v184zM918 418V184h146v234zM1082 418V262h84v-92h40v248zM1226 418V220h126v-54h32v252zM1408 418V272h84v-80h52v226z"/>
+  </g>
+  <g stroke="#929BAA" stroke-opacity="0.14" stroke-width="2">
+    <path d="M42 246h28M42 274h28M42 302h28M255 198h58M255 226h58M255 254h58M255 282h58M530 240h52M530 270h52M530 300h52M946 216h90M946 246h90M946 276h90M1260 252h76M1260 282h76M1260 312h76"/>
+  </g>
+
+  <!-- perspective floor grid -->
+  <g stroke="#45C7FF" stroke-opacity="0.13" fill="none">
+    <path d="M0 472H1600M0 508H1600M0 538H1600"/>
+    <path d="M800 418L90 560M800 418L320 560M800 418L540 560M800 418L688 560M800 418L912 560M800 418L1060 560M800 418L1280 560M800 418L1510 560"/>
+  </g>
+
+  <!-- neural network / tracking overlay -->
+  <g fill="none" stroke="#45C7FF" stroke-opacity="0.44" stroke-width="2">
+    <path d="M1006 118L1112 184L1216 126L1336 206L1460 154"/>
+    <path d="M1112 184L1152 286L1288 306L1336 206L1436 286"/>
+    <path d="M1216 126L1288 306"/>
+    <path d="M1006 118L1038 254L1152 286"/>
+  </g>
+  <g fill="#45C7FF" filter="url(#smallGlow)">
+    <circle cx="1006" cy="118" r="5"/><circle cx="1112" cy="184" r="5"/><circle cx="1216" cy="126" r="5"/>
+    <circle cx="1336" cy="206" r="5"/><circle cx="1460" cy="154" r="5"/><circle cx="1152" cy="286" r="5"/>
+    <circle cx="1288" cy="306" r="5"/><circle cx="1436" cy="286" r="5"/><circle cx="1038" cy="254" r="5"/>
+  </g>
+
+  <!-- computer-vision framing box -->
+  <g fill="none" stroke="#FF2638" stroke-width="3" opacity="0.9">
+    <path d="M1190 330v-24h24M1410 306h24v24M1410 430h24v-24M1214 430h-24v-24"/>
+  </g>
+  <g fill="#FF2638" opacity="0.92" filter="url(#smallGlow)">
+    <circle cx="1214" cy="330" r="4"/><circle cx="1410" cy="330" r="4"/><circle cx="1214" cy="406" r="4"/><circle cx="1410" cy="406" r="4"/>
+  </g>
+  <text x="1215" y="352" fill="#F3F5F7" opacity="0.72" font-family="monospace" font-size="12" letter-spacing="2">TRACKING / 04</text>
+  <text x="1215" y="374" fill="#45C7FF" opacity="0.72" font-family="monospace" font-size="12" letter-spacing="2">ROI 224 × 224</text>
+
+  <!-- title lock-up -->
+  <rect x="92" y="90" width="5" height="248" fill="#FF2638"/>
+  <text x="126" y="126" fill="#45C7FF" font-family="monospace" font-size="14" letter-spacing="4">SIGNAL / SYSTEM / STORY</text>
+  <text x="124" y="222" fill="#F3F5F7" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="8">HRITANKAR</text>
+  <text x="124" y="298" fill="#F3F5F7" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="8">DAS</text>
+  <text x="128" y="336" fill="#929BAA" font-family="monospace" font-size="16" letter-spacing="3">AI / ML ENGINEER · SOFTWARE DEVELOPER</text>
+
+  <!-- instrumentation -->
+  <g font-family="monospace" font-size="12" letter-spacing="2">
+    <text x="94" y="492" fill="#929BAA" opacity="0.75">MITS GWALIOR // CLASS OF 2027</text>
+    <text x="1244" y="492" fill="#929BAA" opacity="0.75">NIT AGARTALA // AI/ML INTERN</text>
+  </g>
+  <path d="M0 438H1600" stroke="url(#horizon)" stroke-width="2"/>
+  <path d="M0 548H1600" stroke="#FF2638" stroke-opacity="0.5"/>
+  <circle cx="1468" cy="492" r="7" fill="#FF2638" filter="url(#smallGlow)"/>
+  <circle cx="1468" cy="492" r="18" fill="none" stroke="#FF2638" stroke-opacity="0.25"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">SimWorld project card</title>
+  <desc id="desc">SimWorld, an LLM-powered multi-agent simulation platform, represented by connected agent nodes and trajectory lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080A0F"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#45C7FF"/><stop offset="1" stop-color="#FF2638"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="420" rx="24" fill="url(#bg)" stroke="#929BAA" stroke-opacity="0.20"/>
+  <g fill="none" stroke="#45C7FF" stroke-opacity="0.35" stroke-width="2">
+    <path d="M610 106L720 164 808 104M610 106L640 254 720 164M720 164l60 110 28-170M640 254l140 20"/>
+    <path d="M610 106L790 274" stroke="#FF2638" stroke-opacity="0.55"/>
+  </g>
+  <g fill="#45C7FF" filter="url(#glow)">
+    <circle cx="610" cy="106" r="10"/><circle cx="720" cy="164" r="10"/><circle cx="808" cy="104" r="10"/><circle cx="640" cy="254" r="10"/><circle cx="780" cy="274" r="10"/>
+  </g>
+  <circle cx="720" cy="164" r="32" fill="none" stroke="#FF2638" stroke-opacity="0.45"/>
+  <circle cx="720" cy="164" r="48" fill="none" stroke="#45C7FF" stroke-opacity="0.18" stroke-dasharray="4 8"/>
+  <g stroke="#929BAA" stroke-opacity="0.12">
+    <path d="M570 74H842M570 322H842M570 74V322M842 74V322"/>
+    <path d="M604 74V322M672 74V322M740 74V322M808 74V322M570 126H842M570 178H842M570 230H842M570 282H842"/>
+  </g>
+  <rect x="62" y="64" width="6" height="172" fill="#45C7FF"/>
+  <text x="92" y="90" fill="#FF2638" font-family="monospace" font-size="13" letter-spacing="4">PROJECT 02 / SIMULATION</text>
+  <text x="92" y="160" fill="#F3F5F7" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="6">SIMWORLD</text>
+  <text x="92" y="194" fill="#929BAA" font-family="monospace" font-size="15" letter-spacing="2">LLM-POWERED MULTI-AGENT PLATFORM</text>
+  <text x="92" y="274" fill="#F3F5F7" font-family="monospace" font-size="20">0.91 VALIDATION / 0.09% PARAMS</text>
+  <text x="92" y="304" fill="#45C7FF" font-family="monospace" font-size="20">53% LOWER EXECUTION LATENCY</text>
+  <text x="92" y="362" fill="#929BAA" font-family="monospace" font-size="12" letter-spacing="2">4-BIT QLoRA · LOCAL / PAID MODEL ROUTING</text>
+  <path d="M92 382H420" stroke="url(#accent)" stroke-width="3"/>
+</svg>

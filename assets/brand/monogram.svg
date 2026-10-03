@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">HD monogram for Hritankar Das</title>
+  <desc id="desc">A geometric HD monogram framed by red and electric-blue signal arcs on a dark background.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF2638"/>
+      <stop offset="0.52" stop-color="#F3F5F7"/>
+      <stop offset="1" stop-color="#45C7FF"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#080A0F"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="48" fill="#080A0F"/>
+  <rect x="22" y="22" width="468" height="468" rx="36" fill="url(#core)" stroke="#929BAA" stroke-opacity="0.18"/>
+  <path d="M62 170A194 194 0 0 1 342 55" fill="none" stroke="#FF2638" stroke-width="8" opacity="0.9" filter="url(#glow)"/>
+  <path d="M170 450A194 194 0 0 0 450 342" fill="none" stroke="#45C7FF" stroke-width="8" opacity="0.9" filter="url(#glow)"/>
+  <path d="M82 116H430M82 396H430" stroke="#929BAA" stroke-opacity="0.12" stroke-dasharray="4 14"/>
+  <g fill="none" stroke="url(#frame)" stroke-width="22" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M104 334V178H182C224 178 245 201 245 256S224 334 182 334H104Z"/>
+    <path d="M290 178V334M290 256H386M386 178V334"/>
+    <path d="M290 178H386"/>
+  </g>
+  <g fill="#45C7FF">
+    <circle cx="104" cy="178" r="6"/><circle cx="245" cy="256" r="6"/><circle cx="290" cy="178" r="6"/><circle cx="386" cy="334" r="6"/>
+  </g>
+  <text x="256" y="424" text-anchor="middle" fill="#929BAA" font-family="monospace" font-size="13" letter-spacing="4">HD / 01</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 72" role="img" aria-labelledby="title desc">
+  <title id="title">Cinematic section divider</title>
+  <desc id="desc">A slim dark divider with crimson and electric-blue signal markers.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF2638" stop-opacity="0"/>
+      <stop offset="0.14" stop-color="#FF2638"/>
+      <stop offset="0.48" stop-color="#929BAA" stop-opacity="0.2"/>
+      <stop offset="0.82" stop-color="#45C7FF"/>
+      <stop offset="1" stop-color="#45C7FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="72" fill="#080A0F"/>
+  <path d="M0 36H1600" stroke="url(#line)" stroke-width="2"/>
+  <path d="M300 28v16M314 32v8M328 28v16M1272 28v16M1286 32v8M1300 28v16" stroke="#929BAA" stroke-opacity="0.38" stroke-width="2"/>
+  <circle cx="300" cy="36" r="6" fill="#FF2638"/>
+  <circle cx="1300" cy="36" r="6" fill="#45C7FF"/>
+  <text x="336" y="41" fill="#929BAA" font-family="monospace" font-size="11" letter-spacing="4">SIGNAL • SYSTEM • STORY</text>
+  <text x="1260" y="41" text-anchor="end" fill="#929BAA" font-family="monospace" font-size="11" letter-spacing="2">HD / 01</text>
+</svg>
